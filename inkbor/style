@@ -1,0 +1,19 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.parallax {
+  /* Example: 2 background layers for parallax */
+  background-image: url('Emery.png'), url('Emery.png');
+  background-attachment: fixed, fixed;
+  background-position: center center, left top;
+  background-repeat: no-repeat, repeat;
+  background-size: cover, contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
